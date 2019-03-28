@@ -1,0 +1,173 @@
+/* ---- GENERAL CSS ----- */
+
+body {
+	background: #fff;
+}
+
+
+.nopadding {
+	padding: 0px;
+}
+
+/* ---- SEARCH BREADCRUMB---- */
+
+.breadcrumb-search {
+	padding: 70px 0;
+	position: relative;
+}
+.search-form-contaner {
+	margin-top: 0px;
+}
+.form-group input.form-control {
+	border-color: #f1f1f1;
+	border-radius: 0;
+	height: 60px;
+	width: 100%;
+}
+
+.btn-search-submit {
+	border-radius: 0;
+	font-weight: 600;
+	height: 60px;
+	width: 100%;
+}
+/* ---- INDEX 5 MAIN SECTION ---- */
+
+.index5-main-section {
+	padding: 0;
+}
+.index5-main-section .employee-main-section {
+	background: rgba(60, 146, 202, 0.7) url("../assets/image/index5-1.jpg") no-repeat scroll center center / cover;
+	height: 540px;
+	padding: 140px 90px;
+}
+.index5-main-section .employer-main-section {
+	background: rgba(60, 146, 202, 0.7) url("../assets/image/index5-2.jpg") no-repeat scroll center center / cover;
+	height: 540px;
+	padding: 140px 90px;
+	border-right: 5px solid #29aafe;
+}
+.index5-main-section .employer-main-section h1 {
+	color: #FFF;
+	font-size: 40px;
+	text-align: left;
+	position: relative;
+	text-transform: capitalize;
+	line-height: 50px;
+}
+.index5-main-section .employee-main-section h1 {
+	color: #FFF;
+	font-size: 40px;
+	text-align: left;
+	position: relative;
+	text-transform: capitalize;
+	line-height: 50px;
+}
+.index5-main-section .employee-main-section .btn-default {
+	position: relative;
+	float: left;
+}
+.index5-main-section .employer-main-section .btn-default {
+	position: relative;
+	float: left;
+}
+.index5-main-section p {
+	margin: 0;
+	color: #FFF;
+	position: relative;
+}
+
+
+.parallex::before {
+	background: rgba(0, 0, 0, 0.8);
+	content: "";
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+.categories {
+	background-color: #FCFCFC;
+	position: relative;
+	overflow: hidden;
+	
+}
+.categories .category-box {
+	position: relative;
+	overflow: hidden;
+	background-color: #FFF;
+	border: 1px solid #F1F1F1;
+	margin-bottom: 30px;
+	
+}
+.categories .category-heading {
+	border-bottom: 1px solid #f1f1f1;
+	color: #242424;
+	font-size: 18px;
+	font-weight: 600;
+	padding: 20px 15px;
+	position: relative;
+	text-transform: capitalize;
+}
+.categories .category-heading:hover {
+	color: #29aafe;
+}
+.categories ul {
+	margin: 0;
+	padding: 15px 0;
+}
+.categories ul li {
+	border-bottom: 1px solid #f1f1f1;
+	color: #ADADAD;
+	margin: 0 20px;
+	padding: 12px 0;
+	position: relative;
+	overflow: hidden;
+}
+.categories ul li a:hover {
+	color: #29aafe;
+}
+.categories ul li a {
+	color: #242424;
+	display: block;
+	font-size:16px;
+	text-transform:uppercase;
+}
+.categories ul li:last-child {
+	border-bottom: none;
+}
+.categories ul li span {
+	float: right;
+	color: #242424;
+}
+.more-btn a {
+	padding: 0 20px 20px 0;
+	position: relative;
+	overflow: hidden;
+	text-decoration: underline;
+}
+.more-btn a:hover {
+	color: #29aafe;
+}
+.btn-default {
+	background-color: #29aafe;
+	color: #FFF;
+	border-radius: 0;
+	padding: 10px 30px;
+	font-weight:600;
+	border: 1px solid #29aafe;
+	text-transform:uppercase;
+	-webkit-transition: all 0.3s ease 0s;
+	-moz-transition: all 0.3s ease- 0s;
+	-o-transition: all 0.3s ease 0s;
+	transition: all 0.3s ease 0s;
+}
+.btn-default:hover {
+	background-color: #2088cb;
+	color: #FFF;
+	border: 1px solid #2088cb;
+}
+.btn-default i {
+	margin-left:10px;	
+}
